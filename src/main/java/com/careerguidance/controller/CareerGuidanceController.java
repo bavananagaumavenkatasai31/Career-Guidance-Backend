@@ -5,7 +5,7 @@ import com.careerguidance.service.CareerGuidanceService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://career-guidance-backend-cadc.onrender.com")
 @RequestMapping("/api/career-guidance")
 public class CareerGuidanceController {
 
